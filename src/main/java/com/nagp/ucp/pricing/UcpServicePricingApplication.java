@@ -10,8 +10,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan({ "com.nagp.ucp" })
 public class UcpServicePricingApplication {
 
-    public static void main(String[] args) {
-        SpringApplication.run(UcpServicePricingApplication.class, args);
-    }
-
+	public static void main(String[] args) {
+		SpringApplication.run(UcpServicePricingApplication.class, args);
+	}
 }

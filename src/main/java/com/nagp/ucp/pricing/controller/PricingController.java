@@ -21,7 +21,7 @@ public class PricingController {
 	@Autowired
 	private PricingService pricingService;
 
-	@GetMapping(value = "/fetch/{serviceId}")
+	@GetMapping(value = "/{serviceId}")
 	public Pricing getPrice(@PathVariable int serviceId) throws UCPException {
 		return pricingService.getPricingById(serviceId);
 	}

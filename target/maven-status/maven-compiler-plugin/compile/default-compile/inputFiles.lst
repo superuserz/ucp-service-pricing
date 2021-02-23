@@ -1,5 +1,5 @@
-D:\nagp-assignment\ucp-service-pricing\src\main\java\com\nagp\ucp\pricing\domain\Pricing.java
-D:\nagp-assignment\ucp-service-pricing\src\main\java\com\nagp\ucp\pricing\service\PricingService.java
-D:\nagp-assignment\ucp-service-pricing\src\main\java\com\nagp\ucp\pricing\repository\PricingRepository.java
-D:\nagp-assignment\ucp-service-pricing\src\main\java\com\nagp\ucp\pricing\controller\PricingController.java
-D:\nagp-assignment\ucp-service-pricing\src\main\java\com\nagp\ucp\pricing\UcpServicePricingApplication.java
+D:\nagarro\nagp-assignment\ucp-service-pricing\src\main\java\com\nagp\ucp\pricing\domain\Pricing.java
+D:\nagarro\nagp-assignment\ucp-service-pricing\src\main\java\com\nagp\ucp\pricing\repository\PricingRepository.java
+D:\nagarro\nagp-assignment\ucp-service-pricing\src\main\java\com\nagp\ucp\pricing\UcpServicePricingApplication.java
+D:\nagarro\nagp-assignment\ucp-service-pricing\src\main\java\com\nagp\ucp\pricing\service\PricingService.java
+D:\nagarro\nagp-assignment\ucp-service-pricing\src\main\java\com\nagp\ucp\pricing\controller\PricingController.java
