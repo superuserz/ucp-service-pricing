@@ -9,8 +9,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.nagp.ucp.common.exception.UCPException;
+import com.nagp.ucp.common.responses.BaseResponse;
 import com.nagp.ucp.pricing.domain.Pricing;
 import com.nagp.ucp.pricing.service.PricingService;
+
+import io.swagger.annotations.ApiOperation;
 
 @RestController
 @RequestMapping(value = "/pricing")
@@ -22,7 +25,8 @@ public class PricingController {
 	private PricingService pricingService;
 
 	@GetMapping(value = "/{serviceId}")
-	public Pricing getPrice(@PathVariable int serviceId) throws UCPException {
-		return pricingService.getPricingById(serviceId);
+	@ApiOperation(value = "Get Pricing Details of service")
+	public BaseResponse<Pricing> getPrice(@PathVariable int serviceId) throws UCPException {
+		return new BaseResponse<>(pricingService.getPricingById(serviceId));
 	}
 }
