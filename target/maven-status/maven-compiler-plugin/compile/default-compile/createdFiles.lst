@@ -1,5 +1,0 @@
-com\nagp\ucp\pricing\repository\PricingRepository.class
-com\nagp\ucp\pricing\service\PricingService.class
-com\nagp\ucp\pricing\controller\PricingController.class
-com\nagp\ucp\pricing\UcpServicePricingApplication.class
-com\nagp\ucp\pricing\domain\Pricing.class
